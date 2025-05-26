@@ -35,7 +35,11 @@ Here’s a summary of what was found:
 - **Local IP Range**: Discovered using `ifconfig` or `ip addr`, which in my case was `192.168.31.0/24`.
 - **Network Reconnaissance**: Understanding which devices and services are accessible on the local network.
 - **Security Risks**: Open ports can be entry points for attacks. It’s crucial to secure services or restrict access.
-
+---
+## 🖥 Nmap Command Used
+```bash
+sudo nmap -sS 192.168.31.0/24 -oN scan_results.txt
+```
 ---
 
 ## 📤 Files in This Repository
